@@ -1,0 +1,312 @@
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block; /*permet aux vieux navigateurs de comprendre que ces balises sont de type bloc*/
+}
+
+body, html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, Geneva, sans-serif;
+	color: white;
+	background: linear-gradient(to right, rgb(01, 08, 23)70%, rgba(01, 08, 23, 0)), url(Image2.png);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	overflow: auto;
+	font-size: clamp(16px, 1.5vw, 25px);
+	scroll-behavior: smooth;
+}
+
+li {
+	list-style-type: none;
+}
+
+header {
+	margin: 0;
+	padding: 0;
+}
+
+#top {
+	margin: 0;
+	padding: 0;
+}
+
+main {
+	opacity: 0;
+	animation: fadeIn 10s forwards; /* Animation d'apparition */
+	animation-delay: 2s;
+	height: 100%;
+	width: 70%;
+}
+
+
+address>ul>li {
+	text-align: center;
+	margin-top: 10px;
+	font-style: normal;
+	padding: 0;
+	letter-spacing: 0.1em;
+	opacity: 0;
+	animation: fadeIn 10s forwards; /* Animation d'apparition */
+	animation-delay: 4s;
+}
+
+
+i {
+	padding-right: 2%;
+}
+
+
+h1 {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 2%;
+	margin-bottom: 10%;
+	width: 65%;
+}
+
+h2 {
+	margin-left: 15%;
+	padding-bottom: 5%;
+	font-size: clamp(30px, 2vw, 40px);
+	margin-top: 5vw;
+}
+
+h3 {
+	font-size: clamp(20px, 1.8vw, 25px);
+}
+
+ 
+#section1 {
+	line-height: 1.8;
+	display: inline-block;
+	margin-top: -3%;
+	margin-left: 5%;
+	background-image: url(Image2.png);
+	background-color: rgba(01, 08, 23, 0.9);
+	background-blend-mode: darken;
+	background-size: cover;
+	background-position: center;
+	-webkit-box-shadow: 0 0 10px white;
+	-moz-box-shadow: 0 0 10px white;
+	-o-box-shadow: 0 0 10px white;
+	box-shadow: 0 0 10px white;
+	max-width: 600px;
+	min-width: 200px;
+	padding: 7px 3%;
+	width: clamp(250px, 50%, 1000px);
+}
+
+
+ nav ul{
+	padding: 0;
+	position: fixed;
+	display: inline-block;
+	margin-top: -15%;
+	/*height: 100%;
+	line-height: 100%;/*=height pour que dans les éléments type bloc le texte s'ajuste pour prendre toute la place*/
+	margin-left : 75%;
+	width :30%;
+	opacity: 0;
+	animation: fadeIn 10s forwards;
+	animation-delay: 4s;
+}
+
+.menu {
+	margin-top: 15%;
+}
+
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;s
+    }
+}
+
+
+p {
+	white-space: normal;
+	overflow-wrap: break-word;
+	text-align: justify;
+} 
+
+a:link {
+	text-decoration:none;
+	color: white;
+}
+
+a:visited {color: white;}
+
+a:hover {color:#00FFFF;}
+
+a {
+	-webkit-transition: 0.5s all;
+}
+
+
+#logosbarres {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+	flex-wrap: nowrap;
+	margin-bottom: 5vw;
+}
+
+.logobarre {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: auto;
+}
+
+
+.logo1 {
+	width: clamp(60px, 7vw, 150px);
+}
+
+.progress-container {
+	width: clamp(16px, 15vw, 180px);
+	height: 15px;
+	border : 1px solid #e0e0e0;
+	border-radius: 10px;
+	margin-top: 20px;
+  }
+  
+  #progress-bar1 {
+	width: 80%;
+	height: 100%;
+	background-color: #e0e0e0;
+	border-radius: 5px 0 0 5px;
+  }
+
+  #progress-bar2 {
+	width: 80%;
+	height: 100%;
+	background-color: #e0e0e0;
+	border-radius: 5px 0 0 5px;
+  }
+
+  #progress-bar3 {
+	width: 50%;
+	height: 100%;
+	background-color: #e0e0e0;
+	border-radius: 5px 0 0 5px;
+  }
+
+.skills {
+	list-style-type: disc;
+	line-height: 3;
+}
+
+#section4 li:nth-child(1) {
+	margin-left: 5vw;
+}
+
+#section4 li:nth-child(2) {
+	margin-left: 10vw;
+}
+
+#section4 li:nth-child(3) {
+	margin-left: 15vw;
+}
+
+#section4bis li:nth-child(1) {
+	margin-left: 5vw;
+}
+
+#section4bis li:nth-child(2) {
+	margin-left: 10vw;
+}
+
+#section4bis li:nth-child(3) {
+	margin-left: 15vw;
+}
+
+#section4bis li:nth-child(4) {
+	margin-left: 20vw;
+}
+
+section {
+	width: 100%;
+	margin-left: 0;
+	padding-left: 0;
+	margin-top: clamp(20px, 40%, 200px);
+	position: relative;
+}
+
+#section2 li {
+	line-height: 150%;
+	margin-bottom: 5%;
+}
+
+#section3 li {
+	line-height: 150%;
+	margin-bottom: 5%;
+}
+
+#section5 {
+	margin-top: 125px;
+}
+
+#section5 li:nth-child(4) {
+	margin-top: 25px;
+}
+
+fieldset {
+	border-radius: 10px;
+	border: 1px solid rgba(250, 250, 250, 0.5);
+}
+
+legend {
+	font-size: 25px;
+}
+
+form li {
+	padding-bottom: 10px;
+}
+
+label {
+	float: left;
+	width: 30%;
+}
+
+input {
+	width: 300px;
+	height: 20px;
+	border-radius: 10px;
+	padding-left: 10px;
+	margin-right: 15%;
+}
+
+#commentairesid {
+	width: 400px;
+	height: 150px;
+	border-radius: 10px;
+	border-style: solid;
+	text-align: left;
+	padding-left: 10px;
+	margin-right: 15%;
+}
+
+button {
+	border-radius: 10px;
+	height: 30px;
+	margin-left: 40%;
+	margin-top: 20px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+button:hover {
+	background-color: #00FFFF;
+	color: white;
+}
+
+#bottom {
+	margin-top: 10%;
+}
