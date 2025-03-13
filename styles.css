@@ -115,16 +115,21 @@ nav {
 	opacity: 0;
 	animation: fadeIn 10s forwards;
 	animation-delay: 4s;
-	width: 100%;
 	text-align: center;
+	width: 100%;
+}
+
+a {
+	vertical-align: center;
 }
 
 
-
 .menu {
+	margin: 0;
+	padding: 0;
 	display: inline-block;
-	width: 30%;
 	vertical-align: center;
+	width: 30vw;
 }
 
 #accueil {
