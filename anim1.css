@@ -1,15 +1,6 @@
 
 
-@-webkit-keyframes deplace
-{
-	0% {margin-left: 30%;
-		font-size: clamp(30px, 8vw, 70px);}
-	30% {margin-left: 30%;
-		font-size: clamp(30px, 8vw, 70px);}
-	100% {margin-left: 2%;
-		font-size: clamp(30px, 3.5vw, 70px);}
-	
-}
+
 
 hr {
 	position: relative;
@@ -35,12 +26,25 @@ hr {
 h1 {
 	position: relative;
 	z-index: 2;
+	margin-top: 4vw;
+	margin-bottom: 10%;
 	-webkit-animation-name:deplace;
 	-webkit-animation-duration:5s;
 	-webkit-animation-delay: 0s;
 	-webkit-animation-fill-mode:forwards;
 
 }
+
+@-webkit-keyframes deplace
+{
+	0% {margin-left: 30vw;
+		font-size: clamp(30px, 8vw, 70px);}
+	30% {margin-left: 30vw;
+		font-size: clamp(30px, 8vw, 70px);}
+	100% {margin-left: 8vw;
+		font-size: clamp(30px, 3vw, 70px);}
+}
+
 
 
 

@@ -40,7 +40,7 @@ main {
 	animation: fadeIn 10s forwards; /* Animation d'apparition */
 	animation-delay: 4s;
 	height: 100%;
-	width: 85%;
+	width: 95%;
 }
 
 
@@ -61,16 +61,8 @@ i {
 }
 
 
-h1 {
-	display: inline-block;
-	vertical-align: top;
-	margin-top: 4vw;
-	margin-bottom: 10%;
-	width: 65%;
-}
-
 h2 {
-	margin-left: 15%;
+	text-align: center;
 	padding-bottom: 5%;
 	font-size: clamp(30px, 2vw, 40px);
 	margin-top: 5vw;
@@ -106,31 +98,33 @@ nav {
 }
 
 
- nav ul {
-	display: inline-block;
-	/*height: 100%;
-	line-height: 100%;/*=height pour que dans les éléments type bloc le texte s'ajuste pour prendre toute la place*/
-	/*margin-left : 75%;*/
-	/*width :30%;*/
+ table {
+	margin: 0 auto;
+	height: 100%;
+	line-height: 100%;
 	opacity: 0;
 	animation: fadeIn 10s forwards;
 	animation-delay: 4s;
 	text-align: center;
 	width: 100%;
+	border-collapse: collapse
 }
 
 a {
 	vertical-align: center;
+	padding: 0;
 }
 
 
 .menu {
-	margin: 0;
-	padding: 0;
+	padding: 1vw 1vw 1vw 1vw;
 	display: inline-block;
 	vertical-align: center;
-	width: 30vw;
-	background-color: red;
+	text-align: center;
+	-webkit-box-shadow: 0 0 2px white;
+	-moz-box-shadow: 0 0 2px white;
+	-o-box-shadow: 0 0 2px white;
+	box-shadow: 0 0 2px white;
 }
 
 #accueil {
