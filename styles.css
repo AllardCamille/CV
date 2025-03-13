@@ -35,11 +35,12 @@ header {
 }
 
 main {
+	margin-left: 5vw;
 	opacity: 0;
 	animation: fadeIn 10s forwards; /* Animation d'apparition */
-	animation-delay: 2s;
+	animation-delay: 4s;
 	height: 100%;
-	width: 70%;
+	width: 85%;
 }
 
 
@@ -63,7 +64,7 @@ i {
 h1 {
 	display: inline-block;
 	vertical-align: top;
-	margin-left: 2%;
+	margin-top: 4vw;
 	margin-bottom: 10%;
 	width: 65%;
 }
@@ -84,39 +85,52 @@ h3 {
 	line-height: 1.8;
 	display: inline-block;
 	margin-top: -3%;
-	margin-left: 5%;
-	background-image: url(Image2.png);
+	margin-left: 5vw;
+	/*background-image: url(Image2.png);
 	background-color: rgba(01, 08, 23, 0.9);
-	background-blend-mode: darken;
+	background-blend-mode: darken;*/
 	background-size: cover;
 	background-position: center;
 	-webkit-box-shadow: 0 0 10px white;
 	-moz-box-shadow: 0 0 10px white;
 	-o-box-shadow: 0 0 10px white;
 	box-shadow: 0 0 10px white;
-	max-width: 600px;
-	min-width: 200px;
 	padding: 7px 3%;
-	width: clamp(250px, 50%, 1000px);
+	width: clamp(250px, 70%, 1000px);
+}
+
+nav {
+	width: 100%;
+	margin: 0;
+	padding: 0;
 }
 
 
- nav ul{
-	padding: 0;
-	position: fixed;
+ nav ul {
 	display: inline-block;
-	margin-top: -15%;
 	/*height: 100%;
 	line-height: 100%;/*=height pour que dans les éléments type bloc le texte s'ajuste pour prendre toute la place*/
-	margin-left : 75%;
-	width :30%;
+	/*margin-left : 75%;*/
+	/*width :30%;*/
 	opacity: 0;
 	animation: fadeIn 10s forwards;
 	animation-delay: 4s;
+	width: 100%;
+	text-align: center;
 }
 
+
+
 .menu {
-	margin-top: 15%;
+	display: inline-block;
+	width: 30%;
+	vertical-align: center;
+}
+
+#accueil {
+	position: fixed;
+	top : 1vw;
+	right: 2vw;
 }
 
 
