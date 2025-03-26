@@ -158,13 +158,16 @@ h3 {
 .menu {
 	text-align: left;
 	padding: 30px 8px 30px 8px;
-	border-bottom: 0.5px solid white;
 }
 
-.menu:last-child {
+
+#sommaire a {
+	border-bottom: 0.5px solid aliceblue
+}
+
+#sommaire a:last-child {
 	border-bottom: none;
 }
-
 
 
 
